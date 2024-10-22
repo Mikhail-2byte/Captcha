@@ -1,0 +1,32 @@
+requests
+beautifulsoup4 
+loguru 
+Pillow
+opencv-python
+numpy
+onnxruntime
+waitress
+lxml
+
+
+# нужно создать папку images
+# pip install -r requirements.txt
+# python -m venv venv
+# venv\Scripts\activate
+# deactivate
+# http://localhost:8080/get_company_data_by_inn?inn=7709979413
+
+
+# dowlaid_captcha - Скрипт, который парсит сайт налоговой службы и извлекает изображения с капчами.
+
+# name - Скрипт, который переименовывает сохраненные капчи в соответствии с тем, что на них изображено.
+
+# neiro_model - Модель нейронной сети, которая обрабатывает датасет и обучает модель. Она сохраняет модель в формате H5, а затем конвертирует ее в формат ONNX Runtime.
+
+# test_model_h5 - Скрипт, который тестирует модель в формате H5 на примере одной картинки.
+
+# test_model_onnx - Скрипт, который тестирует модель в формате ONNX на примере одной картинки.
+
+# main_global - Исходное приложение, которое обрабатывает капчи с помощью RuCaptcha.
+
+# main_loggers - Новое приложение, основанное на main_global, в которое внедрена модель нейронной сети для обработки и отправки капчи на сервер.
