@@ -1,0 +1,17 @@
+requests
+beautifulsoup4 
+loguru 
+Pillow
+opencv-python
+numpy
+onnxruntime
+waitress
+lxml
+
+
+# нужно создать папку images
+# pip install -r requirements.txt
+# python -m venv venv
+# venv\Scripts\activate
+# deactivate
+# http://localhost:8080/get_company_data_by_inn?inn=7709979413
