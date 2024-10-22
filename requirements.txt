@@ -14,6 +14,7 @@ lxml
 # python -m venv venv
 # venv\Scripts\activate
 # deactivate
+<<<<<<< HEAD
 # http://localhost:8080/get_company_data_by_inn?inn=7709979413
 
 
@@ -37,3 +38,6 @@ lxml
 # main_global - Исходное приложение, которое обрабатывает капчи с помощью RuCaptcha.
 
 # main_loggers - Новое приложение, основанное на main_global, в которое внедрена модель нейронной сети для обработки и отправки капчи на сервер.
+=======
+# http://localhost:8080/get_company_data_by_inn?inn=7709979413
+>>>>>>> 30b3cbda45a09067b74412fd2e7312df95535fe9
